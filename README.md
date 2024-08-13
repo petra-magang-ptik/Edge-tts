@@ -33,7 +33,7 @@ The script performs the following tasks:
    - 1 for English
    - 2 for Indonesian
 
-### Generate Speech
+## To Generate Speech
 Run Command: (in terminal)
 ```bash
    python generateAudio.py
