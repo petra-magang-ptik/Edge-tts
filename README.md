@@ -19,5 +19,22 @@ This repository contains a Python script that utilizes the Microsoft Edge Text-t
 2. **Python Libraries:** Ensure 'audiosegment' is installed. If not, install it using:
   ```bash
    pip install audiosegment
-
+```
 ## Script Overview
+The script performs the following tasks:
+
+### Get User Input
+1. Text to be Converted to Speech:
+   - The text input that will be converted into speech.
+2. Speaker's Gender:
+   - 1 for Male
+   - 2 for Female
+3. Speaker's Language:
+   - 1 for English
+   - 2 for Indonesian
+
+### Generate Speech
+Run Command: (in terminal)
+```bash
+   python generateAudio.py
+```
