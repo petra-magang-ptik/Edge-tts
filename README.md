@@ -17,9 +17,9 @@ This repository contains a Python script that utilizes the Microsoft Edge Text-t
    ```bash
    pip install edge-tts
 2. **Python Libraries:** Ensure 'audiosegment' is installed. If not, install it using:
-  ```bash
+     ```bash
    pip install audiosegment
-```
+   ```
 ## Script Overview
 The script performs the following tasks:
 
@@ -37,4 +37,12 @@ The script performs the following tasks:
 Run Command: (in terminal)
 ```bash
    python generateAudio.py
+```
+
+# Model Customization
+To customize voice model of generateAudio.py, go to edgeVoiceModels.ipynb to preview all the English and Indonesian model
+
+To list all edge-tts models available, run (in terminal):
+```bash
+   edge-tts --list-voices
 ```
